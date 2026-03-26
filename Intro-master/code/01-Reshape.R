@@ -68,6 +68,8 @@ df1 <- data.frame(color = "white", value = c(1, 2, 3))
 df2 <- data.frame(x = c("a", "b", "c"), n = c(3, 4, 5))
 cbind(df1, df2)
 
+
+#some annotations
 # Saving Data
 
 write.csv(tidy, file = "tidy.csv", row.names = FALSE)
